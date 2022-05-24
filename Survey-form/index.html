@@ -16,14 +16,14 @@
       <div class="main-content">
         <div class="form-content">
           <form id="survey-form">
-            <label for="name" id="name-label">Name</label>
+            <label for="name" id="name-label">Name:</label>
             <input
               id="name"
               type="text"
               required
               placeholder="Enter your name"
             />
-            <label for="email" id="email-label">Email</label>
+            <label for="email" id="email-label">Email:</label>
             <input
               id="email"
               type="email"
@@ -31,7 +31,7 @@
               placeholder="Enter your email"
             />
             <lablel for="number" id="number-label"
-              >Enter your enjoyment of anime from 1(low) to 10(high)</lablel
+              >Enjoyment of anime from 1(low) to 10(high):</lablel
             >
             <input
               id="number"
@@ -43,7 +43,7 @@
             />
 
             <label for="dropdown"
-              >Which of these anime's is your favorite?</label
+              >Which of these anime's is your favorite?:</label
             >
             <select id="dropdown">
               <option value="" disabled selected hidden>Select 1 Anime</option>
@@ -61,11 +61,11 @@
               <option value="Cowboy-Bebop">Cowboy Bebop</option>
               <option value="Cowboy-Bebop">Cowboy Bebop</option>
             </select>
-
+            <br />
             <fieldset>
               <legend>
-                Would you recomend all of the anime listed above to someone
-                else?
+                Would you recomend all of the anime listed above to someone else
+                above?
               </legend>
               <input
                 type="radio"
@@ -83,9 +83,15 @@
               <input
                 type="radio"
                 name="action"
-                id="Very Unlikely"
-                value="Very Unlikely"
-              /><label for="Very Unlikely"> Very Unlikely</label><br />
+                id="Unlikely"
+                value="Unlikely"
+              /><label for="Unlikely"> Very Unlikely</label><br />
+              <input
+                type="radio"
+                name="action"
+                id="never"
+                value="never"
+              /><label for="never"> Never</label><br />
             </fieldset>
 
             <p>What Genres would you want reccomended to you?</p>
@@ -93,13 +99,8 @@
             <label for="Horror">Horror</label><br />
             <input type="checkbox" id="Comedy" name="Comedy" value="Comedy" />
             <label for="Comedy">Comedy</label><br />
-            <input
-              type="checkbox"
-              id="Slice of Life"
-              name="Slice of Life"
-              value="Slice of Life"
-            />
-            <label for="Slice of Life">Slice of Life</label><br />
+            <input type="checkbox" id="SOL" name="SOL" value="SOL" />
+            <label for="SOL">Slice of Life</label><br />
             <input type="checkbox" id="Action" name="Action" value="Action" />
             <label for="Action">Action</label><br />
             <input
@@ -127,8 +128,7 @@
             <label for="Other">Other</label><br />
 
             <label for="comment"
-              >Anything else we should know about you before we start finding
-              suggested anime for you?</label
+              >Anything else we should know about your preferences?</label
             >
             <textarea rows="4" cols="50" id="comment">
 Add comments here...</textarea
