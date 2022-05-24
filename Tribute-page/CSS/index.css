@@ -18,17 +18,19 @@ body {
   margin: 0;
   margin-bottom: 10px;
   margin-top: 2px;
+  background-color: #e8b165;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  padding-bottom: 50px;
   background: #eee;
   max-width: 1960px;
   margin-left: 15px;
   margin-right: 15px;
-  border-radius: 5px;
+  border-radius: 3%;
   height: auto;
 }
 
@@ -43,6 +45,7 @@ body {
 }
 
 img#image {
+  display: block;
   max-width: 100%;
   height: auto;
   border-radius: 750%;
@@ -82,13 +85,13 @@ img#image:not(:hover) {
   }
 }
 
-#img-caption {
+#caption-color {
   text-align: center;
   font-size: larger;
   margin-top: 20px;
 }
 
-#caption-color {
+#img-caption {
   background-color: white;
 }
 
@@ -122,5 +125,42 @@ h3 {
 ul {
   list-style: square;
   list-style-position: outside;
-  font-size: large;
+}
+
+li {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 50px;
+}
+
+h5 {
+  text-align: center;
+  padding-right: 100px;
+}
+
+#line {
+  border: 0;
+  clear: both;
+  display: block;
+  padding-right: 250px;
+  width: 60%;
+  background-color: #1143c2;
+  height: 2px;
+}
+
+h4 {
+  padding-right: 100px;
+}
+
+#tribute-link:not(:hover) {
+  color: blue;
 }
