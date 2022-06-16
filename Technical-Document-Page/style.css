@@ -1,0 +1,63 @@
+div.main-body {
+  display: grid;
+  grid-template-columns: minmax(300px, auto) 1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 20px;
+}
+
+nav#navbar {
+  grid-area: navbar;
+  position: fixed;
+}
+
+nav a {
+  display: block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+nav {
+  background-color: rgb(235, 205, 167);
+  padding: 5px;
+  margin-right: 0px;
+}
+
+main#main-doc {
+  grid-area: mainContent;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(38, 169, 169);
+}
+
+code {
+  background-color: #ccc;
+  display: block;
+  padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  div.main-body {
+    grid-template-columns: 1fr;
+    grid-template-areas: "navbar" "mainContent";
+  }
+
+  nav#navbar {
+    position: inherit;
+  }
+}
+
+p {
+  color: rgb(126, 124, 8);
+}
+
+body {
+  margin: 5px;
+  background-color: lightcyan;
+}

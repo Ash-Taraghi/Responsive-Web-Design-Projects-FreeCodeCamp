@@ -4,35 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Technical Document Page</title>
   </head>
   <body>
-    <main id="main-doc">
-      <section class="main-section" id="Introduction">
-        <header>Introduction</header>
-        <p>
-          Python is a high-level, interpreted, general-purpose programming
-          language. Its design philosophy emphasizes code readability with the
-          use of significant indentation. Python is dynamically-typed and
-          garbage-collected.
-        </p>
-      </section>
+    <div class="main-body">
+      <nav id="#navbar">
+        <header>Python Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Python" class="nav-link">Python</a>
+        <a href="#Variables" class="nav-link">Variables</a>
+        <a href="#Scope" class="nav-link">Scope</a>
+        <a href="#Functions" class="nav-link">Functions</a>
+      </nav>
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>
+            Python is a high-level, interpreted, general-purpose programming
+            language. Its design philosophy emphasizes code readability with the
+            use of significant indentation. Python is dynamically-typed and
+            garbage-collected.
+          </p>
+          <p>
+            Python is a great starting programming language due to it's easy
+            readable syntax and high usuability.
+          </p>
+          <code> #: single line comment <br />/* multi line comment */ </code>
+          <ul>
+            <li>Syntax</li>
+            <li>Lists</li>
+            <li>Dictionary</li>
+            <li>Indexing</li>
+            <li>Classes</li>
+          </ul>
+        </section>
+        <hr />
 
-      <section class="main-section" id="Python">
-        <header>Python</header>
-      </section>
-
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
-      </section>
-
-      <section class="main-section" id="Scope">
-        <header>Scope</header>
-      </section>
-
-      <section class="main-section" id="Functions">
-        <header>Functions</header>
-      </section>
-    </main>
+        <section class="main-section" id="Python">
+          <header>Python</header>
+          <p>
+            Python was first made in Febuary 20 of 1991, about 31 years ago. The
+            language was designed by the dutch programmer Guido Van Rossum. It
+            is available on Windows, macOS, Linux/UNIX, as well as andorid
+            systems.
+          </p>
+          <p>
+            This webpage will discuss the basics of python, yet there are many
+            extensions availbale to python. Modules such as pyGame and many
+            other imports can be utilized in order to acheive the desired
+            program. Python does support Object Oreinted Programming as is
+            fairly easy to design classes in.
+          </p>
+          <code
+            >x = "This is a techinal document page" <br />
+            print(x)</code
+          >
+        </section>
+        <hr />
+        <section class="main-section" id="Variables">
+          <header>Variables</header>
+          <p>
+            Variables in python do not require a command to declare them.
+            Varaibles are created through assignment statements in python. For
+            example: "x = 5" creates a integer variable x with the value of 5.
+            Variables also do not require a particular type as python determines
+            this when they are assigned and can even have their type changed
+            after they are assigned.
+          </p>
+          <p>
+            To cast in python, you simply put the type you would like to
+            tranform the variale to around brackets. For example, using the
+            above sceanrio we would take "str(x)" to turn x into a string. You
+            can also get the type of the variable using the type(variable name)
+            function
+          </p>
+          <code
+            >x = 250 <br />
+            x="hello world"
+          </code>
+        </section>
+        <hr />
+        <section class="main-section" id="Scope">
+          <header>Scope</header>
+          <p>
+            There are 2 types of scope to discuss in pyton, which is local and
+            global scopes.
+          </p>
+          <p>
+            Local scopes are automatically given to variables declared within a
+            function as that variable exists only in that function to the
+            program. Global variables are either declared outside of the
+            function or you can use the "global" keyword when assinging a new
+            variable in a function to force that variable to have a global scope
+            even though it is assinged in a local enviroment.
+          </p>
+          <code>global x = 5</code>
+        </section>
+        <hr />
+        <section class="main-section" id="Functions">
+          <header>Functions</header>
+          <p>
+            Functions are blocks of code that only execute when they are called.
+            You can pass data amongst functions known as parameters, into the
+            function. Functions have the ability to return data as their result.
+          </p>
+          <p>
+            In python, functions are declared using the def keyword and all the
+            code inside the function must be indented. Parameters being passed
+            in must be declared in the brackets of the function and if the
+            function is supposed to return a value a return statement is
+            required.
+          </p>
+          <code
+            >def sum (a , b): <br />
+            # function for getting sum of two int variables a and b</code
+          >
+        </section>
+      </main>
+    </div>
   </body>
 </html>
