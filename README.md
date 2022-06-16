@@ -10,7 +10,7 @@ These projects are made for the freecodecamp responsive web design certification
 - Tribute page: [website](https://codepen.io/Ash-Taraghi/pen/eYVQeYG) | [requirments for project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 - Survery form: [website](https://codepen.io/Ash-Taraghi/pen/ExQObjL) | [requirments for project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 - Product Landing Page: [website](https://codepen.io/Ash-Taraghi/pen/mdXQqeN) | [requirments for project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
-- Technical Documentation Page: [website]() | [requirments for project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
+- Technical Documentation Page: [website](https://codepen.io/Ash-Taraghi/pen/YzegvXq) | [requirments for project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 - My Personal Portfolio: [website]() | [requirments for project]()
 
 Enjoy!
