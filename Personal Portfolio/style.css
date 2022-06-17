@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6221f28-67ed-43d5-8500-82e620bc77d1/d2s3qw9-a868b371-d50a-4552-a714-c3d4a79ba6a5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjYyMjFmMjgtNjdlZC00M2Q1LTg1MDAtODJlNjIwYmM3N2QxXC9kMnMzcXc5LWE4NjhiMzcxLWQ1MGEtNDU1Mi1hNzE0LWMzZDRhNzliYTZhNS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.jpCjj0DFG90dTdxh1DgeWOuuIsBpoV_poU2UJaf7x1g");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -ms-overflow-style: none; /* hides scroll bar on Internet Explorer and Microsoft Edge */
+  scrollbar-width: none; /* hides scrollbar on FireFox */
+}
+
+body::-webkit-scrollbar {
+  /* hides scroll bar on Chrome, Safari */
+  display: none;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------header -------- */
+#navbar {
+  width: 100%;
+  background-color: #32a896;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #000;
+  z-index: 5;
+}
+
+.nav-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.nav-content .logo {
+  display: flex;
+  width: 15%;
+}
+
+.nav-content .logo img {
+  width: 100%;
+}
+
+.nav-content ul {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  list-style: none;
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-content ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-content ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-content ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-content ul li a:hover {
+  color: #000;
+}
+body {
+  background-color: #000;
+}
+
+/* --------------------Media Query---------------- */
+@media (min-width: 400px) {
+  .nav-content .logo {
+    width: 10%;
+  }
+}
+
+@media (min-width: 600px) {
+  .nav-content ul {
+    font-size: 24px;
+  }
+  .nav-content ul li a {
+    padding: 46px;
+  }
+  .nav-content ul li a:hover {
+    background-color: black;
+    color: #be3144;
+  }
+
+  #projects .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#welcome-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+/*--------------Welcome-Page----------*/
+#welcome-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+#welcome-section:hover {
+  transform: scale(1.5);
+}
+
+p {
+  text-align: center;
+  color: aquamarine;
+}
