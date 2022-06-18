@@ -194,3 +194,48 @@ p {
   width: 100%;
   background-color: rgb(0, 0, 0, 0.8);
 }
+
+/*--------contacts------*/
+#contact {
+  color: #fff;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact:hover {
+  transform: scale(1.5);
+}
+
+#contact h2 {
+  margin-bottom: 0;
+}
+
+#contact ul {
+  padding: 0;
+  font-size: 30px;
+  list-style: none;
+  width: 100%;
+}
+
+#contact ul li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact ul li:last-child {
+  margin-right: 0;
+}
+
+#contact ul li:hover {
+  transform: scale(1.5) rotate(-15deg);
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: white;
+}
